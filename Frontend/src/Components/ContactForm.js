@@ -21,7 +21,7 @@ const ContactForm = () => {
     setShowError(false);
     setIsLoading(true);
 
-    fetch('http://localhost:5000/send-email', {
+    fetch('https://mailer-deployment-test-6.onrender.com/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
