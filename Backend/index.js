@@ -19,6 +19,10 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
+
 app.post('/send-email', async (req, res) => {
   const { name, email, message } = req.body;
 
@@ -43,3 +47,4 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
