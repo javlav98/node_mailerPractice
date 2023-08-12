@@ -74,3 +74,9 @@ p {
     padding: 20px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
