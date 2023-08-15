@@ -75,8 +75,87 @@ p {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 300px) {
     form {
         width: 90%;
+        margin-top: 50px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 205px;
     }
 }
+
+@media screen and (min-width: 301px) and (max-width: 400px) {
+    form {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 205px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+    form {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    form {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    form {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
